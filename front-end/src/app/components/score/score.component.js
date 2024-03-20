@@ -2,7 +2,7 @@
 import { parseUrl } from "../../scripts/utils";
 import { Component } from "../../scripts/component";
 import template from "./score.component.html";
-import "./score.component.css";
+import "./score.component.scss";
 // TODO #export-functions: remove the IIFE
   // TODO #export-functions: export function ScoreComponent
   // TODO #class: use the ES6 class keyword

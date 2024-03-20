@@ -6,7 +6,7 @@ import { NavbarComponent } from "./app/components/navbar/navbar.component";
 import { FooterComponent } from "./app/components/footer/footer.component";
 
 import "../node_modules/bootstrap/dist/css/bootstrap.css";
-import "./app/styles/style.css";
+import "./app/styles/style.scss";
 
 // TODO #import-router: use ES named imports to import the router
 // TODO #import-components: use ES named imports to import WelcomeComponent, GameComponent a ScoreComponent

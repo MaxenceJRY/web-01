@@ -3,7 +3,7 @@ import { parseUrl } from "../../scripts/utils.js";
 import { Component } from "../../scripts/component.js";
 import template from  "./game.component.html";
 import { CardComponent } from "./card/card.component.js";
-import "./game.component.css";
+import "./game.component.scss";
 
 
 // TODO #export-functions: remove the IIFE

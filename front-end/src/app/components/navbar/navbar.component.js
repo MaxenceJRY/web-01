@@ -1,5 +1,5 @@
 import template from './navbar.component.html';
-import "./navbar.component.css";
+import "./navbar.component.scss";
 
 export class NavbarComponent extends HTMLElement {
   constructor() {
