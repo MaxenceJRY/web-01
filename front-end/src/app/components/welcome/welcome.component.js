@@ -1,7 +1,7 @@
 // TODO #import-html: use ES default imports to import welcome.html as template
 import template from "./welcome.component.html";
 import { Component } from "../../scripts/component";
-import "./welcome.component.css";
+import "./welcome.component.scss";
 // TODO #export-functions: remove the IIFE
   // TODO #export-functions: export function WelcomeComponent
   // TODO #class: use the ES6 class keyword
@@ -17,7 +17,7 @@ import "./welcome.component.css";
   // put component in global scope, to be runnable right from the HTML.
   // TODO #class: turn function into a method of WelcomeComponent
   /* method WelcomeComponent.init */
-  init() {
+    init() {
     let form = document.querySelector("form.form-signin");
 
     form.addEventListener(
